@@ -1,9 +1,13 @@
 {
-  "updated": "2026-11-22T06:54:17.788728Z",
+  "updated": "2026-11-22T07:02:23.454598Z",
   "subscriptions": [
     {
       "name": "proxypool.link",
       "url": "https://proxypool.link/clash/proxies?c=CN,HK,TW,JP,US,SG"
+    },
+    {
+      "name": "FreeNodes · nodev2ray.txt",
+      "url": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodev2ray.txt"
     },
     {
       "name": "ClashX-V2Ray-TopFreeProxy · v2ray.config.txt",
@@ -18,20 +22,16 @@
       "url": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/clashmeta.txt"
     },
     {
-      "name": "FreeNodes · clashnode.txt",
-      "url": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/clashnode.txt"
+      "name": "F0rc3Run · proxies.txt",
+      "url": "https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/Best-Results/proxies.txt"
     },
     {
-      "name": "awesome-vpn · all",
-      "url": "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all"
+      "name": "Free-v2ray-Configs · clash.yaml",
+      "url": "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/fast/clash.yaml"
     },
     {
-      "name": "awesome-vpn · clash.yaml",
-      "url": "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml"
-    },
-    {
-      "name": "Free-servers · sub_ar",
-      "url": "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/static/sub_ar"
+      "name": "V2ray-Collector · vless_servers.txt",
+      "url": "https://raw.githubusercontent.com/MohammadBahemmat/V2ray-Collector/main/servers/vless_servers.txt"
     }
   ]
 }
