@@ -1,37 +1,37 @@
 {
-  "updated": "2026-11-22T07:02:23.454598Z",
+  "updated": "2026-11-22T07:47:21.085059Z",
   "subscriptions": [
     {
       "name": "proxypool.link",
       "url": "https://proxypool.link/clash/proxies?c=CN,HK,TW,JP,US,SG"
     },
     {
-      "name": "FreeNodes · nodev2ray.txt",
-      "url": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodev2ray.txt"
-    },
-    {
-      "name": "ClashX-V2Ray-TopFreeProxy · v2ray.config.txt",
-      "url": "https://raw.githubusercontent.com/VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy/main/combine/v2ray.config.txt"
-    },
-    {
-      "name": "ClashX-V2Ray-TopFreeProxy · clash.config.yaml",
-      "url": "https://raw.githubusercontent.com/VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy/main/combine/clash.config.yaml"
-    },
-    {
-      "name": "FreeNodes · clashmeta.txt",
-      "url": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/clashmeta.txt"
-    },
-    {
-      "name": "F0rc3Run · proxies.txt",
-      "url": "https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/Best-Results/proxies.txt"
-    },
-    {
       "name": "Free-v2ray-Configs · clash.yaml",
       "url": "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/fast/clash.yaml"
     },
     {
-      "name": "V2ray-Collector · vless_servers.txt",
-      "url": "https://raw.githubusercontent.com/MohammadBahemmat/V2ray-Collector/main/servers/vless_servers.txt"
+      "name": "daily_free_vpn · V2Ray.yml",
+      "url": "https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/main/sub/V2Ray.yml"
+    },
+    {
+      "name": "V2ray-Config · ss.txt",
+      "url": "https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/main/config/protocols/ss.txt"
+    },
+    {
+      "name": "FreeNodes · nodev2ray.txt",
+      "url": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodev2ray.txt"
+    },
+    {
+      "name": "V2ray-Config · clash.yaml",
+      "url": "https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/main/config/clash.yaml"
+    },
+    {
+      "name": "OpenRay · vless.txt",
+      "url": "https://raw.githubusercontent.com/sakha1370/OpenRay/main/output/kind/vless.txt"
+    },
+    {
+      "name": "ConfigForge-V2Ray · all.txt",
+      "url": "https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/main/configs/all.txt"
     }
   ]
 }

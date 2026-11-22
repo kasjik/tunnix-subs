@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-11-22T07:02:23.454598Z",
+  "lastRun": "2026-11-22T07:47:21.085059Z",
   "links": {
     "https://proxypool.link/clash/proxies?c=CN,HK,TW,JP,US,SG": {
       "repo": "",
@@ -14,6 +14,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 19,
           "working": 19
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 19,
+          "unique": 19,
+          "cdn": 0,
+          "tested": 19,
+          "working": 16,
+          "usable": 16
         }
       ],
       "failStreak": 0
@@ -31,6 +40,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 16,
           "working": 14
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 13,
+          "unique": 9,
+          "cdn": 0,
+          "tested": 9,
+          "working": 8,
+          "usable": 8
         }
       ],
       "failStreak": 0
@@ -48,6 +66,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 20,
           "working": 10
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 20,
+          "unique": 18,
+          "cdn": 5,
+          "tested": 13,
+          "working": 3,
+          "usable": 3
         }
       ],
       "failStreak": 0
@@ -65,9 +92,18 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 20,
           "working": 10
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 20,
+          "unique": 19,
+          "cdn": 5,
+          "tested": 14,
+          "working": 1,
+          "usable": 1
         }
       ],
-      "failStreak": 0
+      "failStreak": 1
     },
     "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/static/sub_de": {
       "repo": "Pawdroid/Free-servers",
@@ -82,6 +118,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 20,
           "working": 13
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 20,
+          "unique": 19,
+          "cdn": 9,
+          "tested": 10,
+          "working": 3,
+          "usable": 3
         }
       ],
       "failStreak": 0
@@ -99,9 +144,18 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 20,
           "working": 10
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 20,
+          "unique": 18,
+          "cdn": 6,
+          "tested": 12,
+          "working": 1,
+          "usable": 1
         }
       ],
-      "failStreak": 0
+      "failStreak": 1
     },
     "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/static/sub_es": {
       "repo": "Pawdroid/Free-servers",
@@ -116,9 +170,18 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 20,
           "working": 12
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 20,
+          "unique": 19,
+          "cdn": 5,
+          "tested": 14,
+          "working": 1,
+          "usable": 1
         }
       ],
-      "failStreak": 0
+      "failStreak": 1
     },
     "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all": {
       "repo": "awesome-vpn/awesome-vpn",
@@ -133,6 +196,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 23,
           "working": 21
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 23,
+          "unique": 23,
+          "cdn": 2,
+          "tested": 21,
+          "working": 18,
+          "usable": 18
         }
       ],
       "failStreak": 0
@@ -150,47 +222,18 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 23,
           "working": 21
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 23,
+          "unique": 23,
+          "cdn": 2,
+          "tested": 21,
+          "working": 17,
+          "usable": 17
         }
       ],
       "failStreak": 0
-    },
-    "https://raw.githubusercontent.com/VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy/main/combine/clashsub.txt": {
-      "repo": "VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy",
-      "firstSeen": "2026-11-22T06:54:17.788728Z",
-      "runs": [
-        {
-          "date": "2026-11-22T06:54:17.788728Z",
-          "nodes": 0,
-          "working": 0,
-          "error": "no nodes"
-        },
-        {
-          "date": "2026-11-22T07:02:23.454598Z",
-          "nodes": 0,
-          "working": 0,
-          "error": "no nodes"
-        }
-      ],
-      "failStreak": 2
-    },
-    "https://raw.githubusercontent.com/VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy/main/combine/v2raysub.txt": {
-      "repo": "VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy",
-      "firstSeen": "2026-11-22T06:54:17.788728Z",
-      "runs": [
-        {
-          "date": "2026-11-22T06:54:17.788728Z",
-          "nodes": 0,
-          "working": 0,
-          "error": "no nodes"
-        },
-        {
-          "date": "2026-11-22T07:02:23.454598Z",
-          "nodes": 0,
-          "working": 0,
-          "error": "no nodes"
-        }
-      ],
-      "failStreak": 2
     },
     "https://raw.githubusercontent.com/VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy/main/combine/v2ray.config.txt": {
       "repo": "VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy",
@@ -205,6 +248,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 1129,
           "working": 734
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 1129,
+          "unique": 215,
+          "cdn": 21,
+          "tested": 24,
+          "working": 11,
+          "usable": 89
         }
       ],
       "failStreak": 0
@@ -222,47 +274,18 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 2908,
           "working": 1963
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 2908,
+          "unique": 234,
+          "cdn": 70,
+          "tested": 24,
+          "working": 3,
+          "usable": 21
         }
       ],
       "failStreak": 0
-    },
-    "https://raw.githubusercontent.com/VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy/main/combine/clash.config.template.yaml": {
-      "repo": "VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy",
-      "firstSeen": "2026-11-22T06:54:17.788728Z",
-      "runs": [
-        {
-          "date": "2026-11-22T06:54:17.788728Z",
-          "nodes": 0,
-          "working": 0,
-          "error": "no nodes"
-        },
-        {
-          "date": "2026-11-22T07:02:23.454598Z",
-          "nodes": 0,
-          "working": 0,
-          "error": "no nodes"
-        }
-      ],
-      "failStreak": 2
-    },
-    "https://raw.githubusercontent.com/Barabama/FreeNodes/main/config.yaml": {
-      "repo": "Barabama/FreeNodes",
-      "firstSeen": "2026-11-22T06:54:17.788728Z",
-      "runs": [
-        {
-          "date": "2026-11-22T06:54:17.788728Z",
-          "nodes": 0,
-          "working": 0,
-          "error": "no nodes"
-        },
-        {
-          "date": "2026-11-22T07:02:23.454598Z",
-          "nodes": 0,
-          "working": 0,
-          "error": "no nodes"
-        }
-      ],
-      "failStreak": 2
     },
     "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/oneclash.txt": {
       "repo": "Barabama/FreeNodes",
@@ -277,6 +300,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 77,
           "working": 52
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 77,
+          "unique": 75,
+          "cdn": 50,
+          "tested": 24,
+          "working": 4,
+          "usable": 4
         }
       ],
       "failStreak": 0
@@ -294,6 +326,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 1398,
           "working": 1118
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 1398,
+          "unique": 227,
+          "cdn": 20,
+          "tested": 24,
+          "working": 12,
+          "usable": 104
         }
       ],
       "failStreak": 0
@@ -311,6 +352,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 1430,
           "working": 930
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 1430,
+          "unique": 219,
+          "cdn": 21,
+          "tested": 24,
+          "working": 15,
+          "usable": 124
         }
       ],
       "failStreak": 0
@@ -328,6 +378,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 1512,
           "working": 1247
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 1512,
+          "unique": 223,
+          "cdn": 18,
+          "tested": 24,
+          "working": 16,
+          "usable": 137
         }
       ],
       "failStreak": 0
@@ -345,9 +404,18 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 47,
           "working": 11
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 47,
+          "unique": 38,
+          "cdn": 9,
+          "tested": 24,
+          "working": 2,
+          "usable": 2
         }
       ],
-      "failStreak": 0
+      "failStreak": 1
     },
     "https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray-2.txt": {
       "repo": "snakem982/proxypool",
@@ -357,6 +425,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 61,
           "working": 55
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 61,
+          "unique": 57,
+          "cdn": 10,
+          "tested": 24,
+          "working": 6,
+          "usable": 12
         }
       ],
       "failStreak": 0
@@ -369,6 +446,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 62,
           "working": 48
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 62,
+          "unique": 58,
+          "cdn": 10,
+          "tested": 24,
+          "working": 15,
+          "usable": 30
         }
       ],
       "failStreak": 0
@@ -381,6 +467,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 10762,
           "working": 6726
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 10762,
+          "unique": 225,
+          "cdn": 39,
+          "tested": 24,
+          "working": 3,
+          "usable": 23
         }
       ],
       "failStreak": 0
@@ -393,6 +488,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 10421,
           "working": 5471
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 10421,
+          "unique": 215,
+          "cdn": 43,
+          "tested": 24,
+          "working": 2,
+          "usable": 14
         }
       ],
       "failStreak": 0
@@ -405,6 +509,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 740,
           "working": 722
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 668,
+          "unique": 228,
+          "cdn": 4,
+          "tested": 24,
+          "working": 20,
+          "usable": 187
         }
       ],
       "failStreak": 0
@@ -417,6 +530,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 6426,
           "working": 4659
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 6426,
+          "unique": 210,
+          "cdn": 41,
+          "tested": 24,
+          "working": 5,
+          "usable": 35
         }
       ],
       "failStreak": 0
@@ -429,6 +551,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 552,
           "working": 552
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 488,
+          "unique": 189,
+          "cdn": 6,
+          "tested": 24,
+          "working": 18,
+          "usable": 137
         }
       ],
       "failStreak": 0
@@ -441,6 +572,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 5515,
           "working": 3171
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 5516,
+          "unique": 204,
+          "cdn": 41,
+          "tested": 24,
+          "working": 4,
+          "usable": 27
         }
       ],
       "failStreak": 0
@@ -454,9 +594,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt": {
       "repo": "MatinGhanbari/v2ray-configs",
@@ -466,9 +616,18 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 3032,
           "working": 1364
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 3032,
+          "unique": 214,
+          "cdn": 58,
+          "tested": 24,
+          "working": 0,
+          "usable": 0
         }
       ],
-      "failStreak": 0
+      "failStreak": 1
     },
     "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/base64/all_sub.txt": {
       "repo": "MatinGhanbari/v2ray-configs",
@@ -478,9 +637,18 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 3032,
           "working": 1364
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 3032,
+          "unique": 215,
+          "cdn": 55,
+          "tested": 24,
+          "working": 0,
+          "usable": 0
         }
       ],
-      "failStreak": 0
+      "failStreak": 1
     },
     "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/super-sub.txt": {
       "repo": "MatinGhanbari/v2ray-configs",
@@ -490,9 +658,18 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 156,
           "working": 86
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 156,
+          "unique": 145,
+          "cdn": 30,
+          "tested": 24,
+          "working": 0,
+          "usable": 0
         }
       ],
-      "failStreak": 0
+      "failStreak": 1
     },
     "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/nodes.txt": {
       "repo": "zhuhaiuk/free-nodes",
@@ -502,9 +679,18 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 2,
           "working": 2
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 2,
+          "unique": 2,
+          "cdn": 0,
+          "tested": 2,
+          "working": 0,
+          "usable": 0
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml": {
       "repo": "zhuhaiuk/free-nodes",
@@ -514,6 +700,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 4,
           "working": 4
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 4,
+          "unique": 4,
+          "cdn": 0,
+          "tested": 4,
+          "working": 3,
+          "usable": 3
         }
       ],
       "failStreak": 0
@@ -526,9 +721,18 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 1,
           "working": 1
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 1,
+          "unique": 1,
+          "cdn": 0,
+          "tested": 1,
+          "working": 1,
+          "usable": 1
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/main/sub/sub.yml": {
       "repo": "cbusifabcap/daily_free_vpn",
@@ -538,6 +742,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 420,
           "working": 389
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 420,
+          "unique": 229,
+          "cdn": 32,
+          "tested": 24,
+          "working": 22,
+          "usable": 181
         }
       ],
       "failStreak": 0
@@ -550,6 +763,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 321,
           "working": 321
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 321,
+          "unique": 226,
+          "cdn": 45,
+          "tested": 24,
+          "working": 15,
+          "usable": 113
         }
       ],
       "failStreak": 0
@@ -562,6 +784,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 420,
           "working": 378
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 420,
+          "unique": 230,
+          "cdn": 33,
+          "tested": 24,
+          "working": 18,
+          "usable": 148
         }
       ],
       "failStreak": 0
@@ -574,6 +805,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 422,
           "working": 390
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 422,
+          "unique": 222,
+          "cdn": 38,
+          "tested": 24,
+          "working": 19,
+          "usable": 146
         }
       ],
       "failStreak": 0
@@ -586,6 +826,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 297,
           "working": 290
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 297,
+          "unique": 234,
+          "cdn": 0,
+          "tested": 24,
+          "working": 23,
+          "usable": 224
         }
       ],
       "failStreak": 0
@@ -598,6 +847,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 296,
           "working": 296
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 296,
+          "unique": 232,
+          "cdn": 0,
+          "tested": 24,
+          "working": 23,
+          "usable": 222
         }
       ],
       "failStreak": 0
@@ -610,6 +868,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 297,
           "working": 297
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 297,
+          "unique": 236,
+          "cdn": 0,
+          "tested": 24,
+          "working": 23,
+          "usable": 226
         }
       ],
       "failStreak": 0
@@ -622,6 +889,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 46,
           "working": 41
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 46,
+          "unique": 38,
+          "cdn": 0,
+          "tested": 24,
+          "working": 21,
+          "usable": 33
         }
       ],
       "failStreak": 0
@@ -634,6 +910,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 18,
           "working": 18
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 18,
+          "unique": 18,
+          "cdn": 0,
+          "tested": 18,
+          "working": 15,
+          "usable": 15
         }
       ],
       "failStreak": 0
@@ -646,6 +931,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 296,
           "working": 296
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 296,
+          "unique": 234,
+          "cdn": 0,
+          "tested": 24,
+          "working": 23,
+          "usable": 224
         }
       ],
       "failStreak": 0
@@ -659,9 +953,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/sakha1370/OpenRay/main/output/kind/ss.txt": {
       "repo": "sakha1370/OpenRay",
@@ -671,6 +975,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 448,
           "working": 347
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 448,
+          "unique": 220,
+          "cdn": 0,
+          "tested": 24,
+          "working": 14,
+          "usable": 128
         }
       ],
       "failStreak": 0
@@ -684,9 +997,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/sakha1370/OpenRay/main/output/kind/vless.txt": {
       "repo": "sakha1370/OpenRay",
@@ -696,6 +1019,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 4110,
           "working": 3494
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 4110,
+          "unique": 210,
+          "cdn": 37,
+          "tested": 24,
+          "working": 10,
+          "usable": 72
         }
       ],
       "failStreak": 0
@@ -708,6 +1040,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 428,
           "working": 385
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 428,
+          "unique": 133,
+          "cdn": 35,
+          "tested": 24,
+          "working": 11,
+          "usable": 45
         }
       ],
       "failStreak": 0
@@ -720,6 +1061,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 501,
           "working": 438
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 501,
+          "unique": 130,
+          "cdn": 16,
+          "tested": 24,
+          "working": 15,
+          "usable": 71
         }
       ],
       "failStreak": 0
@@ -732,6 +1082,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 276,
           "working": 138
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 276,
+          "unique": 191,
+          "cdn": 37,
+          "tested": 24,
+          "working": 5,
+          "usable": 32
         }
       ],
       "failStreak": 0
@@ -744,9 +1103,18 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 232,
           "working": 81
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 232,
+          "unique": 174,
+          "cdn": 34,
+          "tested": 24,
+          "working": 0,
+          "usable": 0
         }
       ],
-      "failStreak": 0
+      "failStreak": 1
     },
     "https://raw.githubusercontent.com/iboxz/free-v2ray-collector/main/main/vmess": {
       "repo": "iboxz/free-v2ray-collector",
@@ -756,6 +1124,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 27,
           "working": 17
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 27,
+          "unique": 23,
+          "cdn": 6,
+          "tested": 17,
+          "working": 4,
+          "usable": 4
         }
       ],
       "failStreak": 0
@@ -768,6 +1145,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 17,
           "working": 16
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 17,
+          "unique": 14,
+          "cdn": 7,
+          "tested": 7,
+          "working": 4,
+          "usable": 4
         }
       ],
       "failStreak": 0
@@ -780,6 +1166,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 276,
           "working": 179
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 276,
+          "unique": 190,
+          "cdn": 39,
+          "tested": 24,
+          "working": 5,
+          "usable": 31
         }
       ],
       "failStreak": 0
@@ -792,6 +1187,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 232,
           "working": 133
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 232,
+          "unique": 174,
+          "cdn": 34,
+          "tested": 24,
+          "working": 3,
+          "usable": 18
         }
       ],
       "failStreak": 0
@@ -805,9 +1209,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/main/sub/ss.txt": {
       "repo": "hamedcode/port-based-v2ray-configs",
@@ -817,6 +1231,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 365,
           "working": 365
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 365,
+          "unique": 223,
+          "cdn": 1,
+          "tested": 24,
+          "working": 17,
+          "usable": 157
         }
       ],
       "failStreak": 0
@@ -829,6 +1252,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 2813,
           "working": 2813
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 2813,
+          "unique": 212,
+          "cdn": 73,
+          "tested": 24,
+          "working": 8,
+          "usable": 46
         }
       ],
       "failStreak": 0
@@ -841,6 +1273,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 1267,
           "working": 1267
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 1267,
+          "unique": 222,
+          "cdn": 115,
+          "tested": 24,
+          "working": 6,
+          "usable": 27
         }
       ],
       "failStreak": 0
@@ -853,6 +1294,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 97,
           "working": 95
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 97,
+          "unique": 95,
+          "cdn": 17,
+          "tested": 24,
+          "working": 13,
+          "usable": 42
         }
       ],
       "failStreak": 0
@@ -865,6 +1315,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 628,
           "working": 628
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 628,
+          "unique": 189,
+          "cdn": 57,
+          "tested": 24,
+          "working": 6,
+          "usable": 33
         }
       ],
       "failStreak": 0
@@ -878,9 +1337,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/MahanKenway/Freedom-V2Ray/main/configs/ss.txt": {
       "repo": "MahanKenway/Freedom-V2Ray",
@@ -890,6 +1359,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 227,
           "working": 227
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 227,
+          "unique": 200,
+          "cdn": 1,
+          "tested": 24,
+          "working": 22,
+          "usable": 182
         }
       ],
       "failStreak": 0
@@ -902,6 +1380,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 1670,
           "working": 1628
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 1670,
+          "unique": 236,
+          "cdn": 99,
+          "tested": 24,
+          "working": 6,
+          "usable": 34
         }
       ],
       "failStreak": 0
@@ -914,6 +1401,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 134,
           "working": 134
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 134,
+          "unique": 115,
+          "cdn": 35,
+          "tested": 24,
+          "working": 9,
+          "usable": 30
         }
       ],
       "failStreak": 0
@@ -926,6 +1422,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 1012,
           "working": 1012
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 1012,
+          "unique": 230,
+          "cdn": 122,
+          "tested": 24,
+          "working": 2,
+          "usable": 9
         }
       ],
       "failStreak": 0
@@ -938,6 +1443,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 227,
           "working": 221
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 227,
+          "unique": 200,
+          "cdn": 1,
+          "tested": 24,
+          "working": 20,
+          "usable": 166
         }
       ],
       "failStreak": 0
@@ -950,6 +1464,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 297,
           "working": 297
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 297,
+          "unique": 207,
+          "cdn": 72,
+          "tested": 24,
+          "working": 2,
+          "usable": 11
         }
       ],
       "failStreak": 0
@@ -963,9 +1486,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/MohammadBahemmat/V2ray-Collector/main/all_servers.txt": {
       "repo": "MohammadBahemmat/V2ray-Collector",
@@ -975,6 +1508,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 642,
           "working": 514
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 571,
+          "unique": 193,
+          "cdn": 27,
+          "tested": 24,
+          "working": 4,
+          "usable": 28
         }
       ],
       "failStreak": 0
@@ -987,6 +1529,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 43,
           "working": 39
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 75,
+          "unique": 74,
+          "cdn": 0,
+          "tested": 24,
+          "working": 15,
+          "usable": 46
         }
       ],
       "failStreak": 0
@@ -1000,9 +1551,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/MohammadBahemmat/V2ray-Collector/main/data/last_message_id.json": {
       "repo": "MohammadBahemmat/V2ray-Collector",
@@ -1013,9 +1574,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/MohammadBahemmat/V2ray-Collector/main/servers/vless_servers.txt": {
       "repo": "MohammadBahemmat/V2ray-Collector",
@@ -1025,9 +1596,18 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 433,
           "working": 379
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 404,
+          "unique": 175,
+          "cdn": 18,
+          "tested": 24,
+          "working": 0,
+          "usable": 0
         }
       ],
-      "failStreak": 0
+      "failStreak": 1
     },
     "https://raw.githubusercontent.com/MohammadBahemmat/V2ray-Collector/main/servers/vmess_servers.txt": {
       "repo": "MohammadBahemmat/V2ray-Collector",
@@ -1037,6 +1617,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 26,
           "working": 25
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 32,
+          "unique": 27,
+          "cdn": 7,
+          "tested": 20,
+          "working": 7,
+          "usable": 7
         }
       ],
       "failStreak": 0
@@ -1049,9 +1638,18 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 191,
           "working": 186
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 191,
+          "unique": 18,
+          "cdn": 0,
+          "tested": 18,
+          "working": 2,
+          "usable": 2
         }
       ],
-      "failStreak": 0
+      "failStreak": 1
     },
     "https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt": {
       "repo": "aviamastersgh/vpn-free-russia",
@@ -1061,6 +1659,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 6214,
           "working": 4194
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 6214,
+          "unique": 217,
+          "cdn": 68,
+          "tested": 24,
+          "working": 3,
+          "usable": 19
         }
       ],
       "failStreak": 0
@@ -1074,9 +1681,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt": {
       "repo": "aviamastersgh/vpn-free-russia",
@@ -1086,6 +1703,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 425,
           "working": 425
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 425,
+          "unique": 224,
+          "cdn": 67,
+          "tested": 24,
+          "working": 9,
+          "usable": 59
         }
       ],
       "failStreak": 0
@@ -1099,9 +1725,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/proxies/all.txt": {
       "repo": "Thordata/awesome-free-proxy-list",
@@ -1112,9 +1748,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/proxies/json/all.json": {
       "repo": "Thordata/awesome-free-proxy-list",
@@ -1125,9 +1771,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/proxies/links/all.txt": {
       "repo": "Thordata/awesome-free-proxy-list",
@@ -1138,9 +1794,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/proxies/v2ray/all.txt": {
       "repo": "Thordata/awesome-free-proxy-list",
@@ -1151,9 +1817,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/proxies/clash/all.yaml": {
       "repo": "Thordata/awesome-free-proxy-list",
@@ -1164,9 +1840,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/input_subs/ss.txt": {
       "repo": "asgharkapk/Sub-Config-Extractor",
@@ -1177,9 +1863,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/input_subs/ssd.txt": {
       "repo": "asgharkapk/Sub-Config-Extractor",
@@ -1190,9 +1886,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/input_subs/ssr.txt": {
       "repo": "asgharkapk/Sub-Config-Extractor",
@@ -1203,9 +1909,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/input_subs/clash.txt": {
       "repo": "asgharkapk/Sub-Config-Extractor",
@@ -1216,9 +1932,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/input_subs/mixed.txt": {
       "repo": "asgharkapk/Sub-Config-Extractor",
@@ -1229,9 +1955,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/input_subs/sssub.txt": {
       "repo": "asgharkapk/Sub-Config-Extractor",
@@ -1242,9 +1978,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/all.txt": {
       "repo": "morpheusadam/v2ray-config",
@@ -1255,9 +2001,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/proxies/all.txt": {
       "repo": "morpheusadam/v2ray-config",
@@ -1268,9 +2024,19 @@
           "nodes": 0,
           "working": 0,
           "error": "no nodes"
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
         }
       ],
-      "failStreak": 1
+      "failStreak": 2
     },
     "https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/vmess.txt": {
       "repo": "morpheusadam/v2ray-config",
@@ -1280,6 +2046,15 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 9793,
           "working": 2938
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 9793,
+          "unique": 193,
+          "cdn": 34,
+          "tested": 24,
+          "working": 1,
+          "usable": 7
         }
       ],
       "failStreak": 0
@@ -1292,9 +2067,18 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 11021,
           "working": 7715
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 11021,
+          "unique": 218,
+          "cdn": 70,
+          "tested": 24,
+          "working": 0,
+          "usable": 0
         }
       ],
-      "failStreak": 0
+      "failStreak": 1
     },
     "https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/best-base64.txt": {
       "repo": "morpheusadam/v2ray-config",
@@ -1304,9 +2088,18 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 1797,
           "working": 1797
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 1797,
+          "unique": 244,
+          "cdn": 148,
+          "tested": 24,
+          "working": 0,
+          "usable": 0
         }
       ],
-      "failStreak": 0
+      "failStreak": 1
     },
     "https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/iran-base64.txt": {
       "repo": "morpheusadam/v2ray-config",
@@ -1316,6 +2109,668 @@
           "date": "2026-11-22T07:02:23.454598Z",
           "nodes": 2709,
           "working": 2099
+        },
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 2709,
+          "unique": 242,
+          "cdn": 4,
+          "tested": 24,
+          "working": 4,
+          "usable": 40
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub2.txt": {
+      "repo": "barry-far/V2ray-Config",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 118,
+          "unique": 109,
+          "cdn": 0,
+          "tested": 24,
+          "working": 14,
+          "usable": 64
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub8.txt": {
+      "repo": "barry-far/V2ray-Config",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 220,
+          "unique": 166,
+          "cdn": 27,
+          "tested": 24,
+          "working": 6,
+          "usable": 35
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub7.txt": {
+      "repo": "barry-far/V2ray-Config",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 284,
+          "unique": 187,
+          "cdn": 31,
+          "tested": 24,
+          "working": 3,
+          "usable": 20
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub6.txt": {
+      "repo": "barry-far/V2ray-Config",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 348,
+          "unique": 201,
+          "cdn": 33,
+          "tested": 24,
+          "working": 1,
+          "usable": 7
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub5.txt": {
+      "repo": "barry-far/V2ray-Config",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 332,
+          "unique": 147,
+          "cdn": 52,
+          "tested": 24,
+          "working": 5,
+          "usable": 20
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub9.txt": {
+      "repo": "barry-far/V2ray-Config",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 273,
+          "unique": 182,
+          "cdn": 31,
+          "tested": 24,
+          "working": 2,
+          "usable": 13
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY.txt": {
+      "repo": "roosterkid/openproxylist",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt": {
+      "repo": "roosterkid/openproxylist",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 57,
+          "unique": 57,
+          "cdn": 4,
+          "tested": 24,
+          "working": 16,
+          "usable": 35
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt": {
+      "repo": "roosterkid/openproxylist",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 57,
+          "unique": 57,
+          "cdn": 4,
+          "tested": 24,
+          "working": 18,
+          "usable": 40
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/tolinkshare2/tolinkshare2.github.io/main/_config": {
+      "repo": "tolinkshare2/tolinkshare2.github.io",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/gfpcom/free-proxy-list/main/sources/ss.txt": {
+      "repo": "gfpcom/free-proxy-list",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/gfpcom/free-proxy-list/main/sources/ssr.txt": {
+      "repo": "gfpcom/free-proxy-list",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/gfpcom/free-proxy-list/main/sources/vless.txt": {
+      "repo": "gfpcom/free-proxy-list",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/gfpcom/free-proxy-list/main/sources/vmess.txt": {
+      "repo": "gfpcom/free-proxy-list",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/gfpcom/free-proxy-list/main/sources/trojan.txt": {
+      "repo": "gfpcom/free-proxy-list",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/main/configs/ssr.txt": {
+      "repo": "ShatakVPN/ConfigForge-V2Ray",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/main/configs/all.txt": {
+      "repo": "ShatakVPN/ConfigForge-V2Ray",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 379,
+          "unique": 219,
+          "cdn": 22,
+          "tested": 24,
+          "working": 8,
+          "usable": 66
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/main/configs/vmess.txt": {
+      "repo": "ShatakVPN/ConfigForge-V2Ray",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/main/configs/vless.txt": {
+      "repo": "ShatakVPN/ConfigForge-V2Ray",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 214,
+          "unique": 168,
+          "cdn": 32,
+          "tested": 24,
+          "working": 7,
+          "usable": 40
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/main/configs/ir/ssr.txt": {
+      "repo": "ShatakVPN/ConfigForge-V2Ray",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/main/configs/cz/all.txt": {
+      "repo": "ShatakVPN/ConfigForge-V2Ray",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 504,
+          "unique": 188,
+          "cdn": 39,
+          "tested": 24,
+          "working": 0,
+          "usable": 0
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/main/data/sub.txt": {
+      "repo": "Delta-Kronecker/V2ray-Config",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/main/config/clash.yaml": {
+      "repo": "Delta-Kronecker/V2ray-Config",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 2366,
+          "unique": 202,
+          "cdn": 21,
+          "tested": 24,
+          "working": 12,
+          "usable": 91
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/main/config/patt/all.txt": {
+      "repo": "Delta-Kronecker/V2ray-Config",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 218,
+          "unique": 157,
+          "cdn": 60,
+          "tested": 24,
+          "working": 4,
+          "usable": 16
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/main/config/all_configs.txt": {
+      "repo": "Delta-Kronecker/V2ray-Config",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 2361,
+          "unique": 188,
+          "cdn": 21,
+          "tested": 24,
+          "working": 8,
+          "usable": 56
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/main/config/protocols/ss.txt": {
+      "repo": "Delta-Kronecker/V2ray-Config",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 372,
+          "unique": 234,
+          "cdn": 23,
+          "tested": 24,
+          "working": 21,
+          "usable": 185
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/main/templates/clash_base.yaml": {
+      "repo": "Delta-Kronecker/V2ray-Config",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/ss": {
+      "repo": "MhdiTaheri/V2rayCollector",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 193,
+          "unique": 178,
+          "cdn": 0,
+          "tested": 24,
+          "working": 16,
+          "usable": 119
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/mix": {
+      "repo": "MhdiTaheri/V2rayCollector",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 882,
+          "unique": 225,
+          "cdn": 21,
+          "tested": 24,
+          "working": 4,
+          "usable": 34
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/vless": {
+      "repo": "MhdiTaheri/V2rayCollector",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 525,
+          "unique": 224,
+          "cdn": 27,
+          "tested": 24,
+          "working": 0,
+          "usable": 0
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/vmess": {
+      "repo": "MhdiTaheri/V2rayCollector",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 108,
+          "unique": 63,
+          "cdn": 16,
+          "tested": 24,
+          "working": 10,
+          "usable": 20
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/trojan": {
+      "repo": "MhdiTaheri/V2rayCollector",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 62,
+          "unique": 55,
+          "cdn": 7,
+          "tested": 24,
+          "working": 1,
+          "usable": 2
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/ssbase64": {
+      "repo": "MhdiTaheri/V2rayCollector",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 193,
+          "unique": 178,
+          "cdn": 0,
+          "tested": 24,
+          "working": 15,
+          "usable": 111
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/main/sub.txt": {
+      "repo": "miladtahanian/V2RayCFGDumper",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 85,
+          "unique": 51,
+          "cdn": 11,
+          "tested": 24,
+          "working": 12,
+          "usable": 20
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector_Py/main/sub/Mix/mix.txt": {
+      "repo": "MhdiTaheri/V2rayCollector_Py",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 274,
+          "unique": 198,
+          "cdn": 25,
+          "tested": 24,
+          "working": 7,
+          "usable": 50
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/main/Config/vless.txt": {
+      "repo": "V2RayRoot/V2RayConfig",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 205,
+          "unique": 156,
+          "cdn": 48,
+          "tested": 24,
+          "working": 5,
+          "usable": 23
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/main/Config/vmess.txt": {
+      "repo": "V2RayRoot/V2RayConfig",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 13,
+          "unique": 12,
+          "cdn": 1,
+          "tested": 11,
+          "working": 4,
+          "usable": 4
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/main/Config/trojan.txt": {
+      "repo": "V2RayRoot/V2RayConfig",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 26,
+          "unique": 22,
+          "cdn": 12,
+          "tested": 10,
+          "working": 0,
+          "usable": 0
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/main/Config/proxies.txt": {
+      "repo": "V2RayRoot/V2RayConfig",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 0,
+          "unique": 0,
+          "cdn": 0,
+          "tested": 0,
+          "working": 0,
+          "usable": 0,
+          "error": "no nodes"
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/main/Config/shadowsocks.txt": {
+      "repo": "V2RayRoot/V2RayConfig",
+      "firstSeen": "2026-11-22T07:47:21.085059Z",
+      "runs": [
+        {
+          "date": "2026-11-22T07:47:21.085059Z",
+          "nodes": 15,
+          "unique": 11,
+          "cdn": 0,
+          "tested": 11,
+          "working": 6,
+          "usable": 6
         }
       ],
       "failStreak": 0
