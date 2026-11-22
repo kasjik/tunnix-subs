@@ -1,0 +1,4 @@
+# Standalone settings (the parent Flutter project's lints don't apply here).
+analyzer:
+  language:
+    strict-casts: false

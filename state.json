@@ -1,0 +1,249 @@
+{
+  "lastRun": "2026-11-22T06:54:17.788728Z",
+  "links": {
+    "https://proxypool.link/clash/proxies?c=CN,HK,TW,JP,US,SG": {
+      "repo": "",
+      "firstSeen": "2026-11-22T06:54:17.788728Z",
+      "runs": [
+        {
+          "date": "2026-11-22T06:54:17.788728Z",
+          "nodes": 19,
+          "working": 19
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub": {
+      "repo": "Pawdroid/Free-servers",
+      "firstSeen": "2026-11-22T06:54:17.788728Z",
+      "runs": [
+        {
+          "date": "2026-11-22T06:54:17.788728Z",
+          "nodes": 16,
+          "working": 16
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/static/sub_ar": {
+      "repo": "Pawdroid/Free-servers",
+      "firstSeen": "2026-11-22T06:54:17.788728Z",
+      "runs": [
+        {
+          "date": "2026-11-22T06:54:17.788728Z",
+          "nodes": 20,
+          "working": 20
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/static/sub_bn": {
+      "repo": "Pawdroid/Free-servers",
+      "firstSeen": "2026-11-22T06:54:17.788728Z",
+      "runs": [
+        {
+          "date": "2026-11-22T06:54:17.788728Z",
+          "nodes": 20,
+          "working": 19
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/static/sub_de": {
+      "repo": "Pawdroid/Free-servers",
+      "firstSeen": "2026-11-22T06:54:17.788728Z",
+      "runs": [
+        {
+          "date": "2026-11-22T06:54:17.788728Z",
+          "nodes": 20,
+          "working": 20
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/static/sub_en": {
+      "repo": "Pawdroid/Free-servers",
+      "firstSeen": "2026-11-22T06:54:17.788728Z",
+      "runs": [
+        {
+          "date": "2026-11-22T06:54:17.788728Z",
+          "nodes": 20,
+          "working": 19
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/static/sub_es": {
+      "repo": "Pawdroid/Free-servers",
+      "firstSeen": "2026-11-22T06:54:17.788728Z",
+      "runs": [
+        {
+          "date": "2026-11-22T06:54:17.788728Z",
+          "nodes": 20,
+          "working": 20
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all": {
+      "repo": "awesome-vpn/awesome-vpn",
+      "firstSeen": "2026-11-22T06:54:17.788728Z",
+      "runs": [
+        {
+          "date": "2026-11-22T06:54:17.788728Z",
+          "nodes": 23,
+          "working": 23
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml": {
+      "repo": "awesome-vpn/awesome-vpn",
+      "firstSeen": "2026-11-22T06:54:17.788728Z",
+      "runs": [
+        {
+          "date": "2026-11-22T06:54:17.788728Z",
+          "nodes": 23,
+          "working": 23
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy/main/combine/clashsub.txt": {
+      "repo": "VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy",
+      "firstSeen": "2026-11-22T06:54:17.788728Z",
+      "runs": [
+        {
+          "date": "2026-11-22T06:54:17.788728Z",
+          "nodes": 0,
+          "working": 0,
+          "error": "no nodes"
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy/main/combine/v2raysub.txt": {
+      "repo": "VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy",
+      "firstSeen": "2026-11-22T06:54:17.788728Z",
+      "runs": [
+        {
+          "date": "2026-11-22T06:54:17.788728Z",
+          "nodes": 0,
+          "working": 0,
+          "error": "no nodes"
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy/main/combine/v2ray.config.txt": {
+      "repo": "VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy",
+      "firstSeen": "2026-11-22T06:54:17.788728Z",
+      "runs": [
+        {
+          "date": "2026-11-22T06:54:17.788728Z",
+          "nodes": 1129,
+          "working": 1016
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy/main/combine/clash.config.yaml": {
+      "repo": "VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy",
+      "firstSeen": "2026-11-22T06:54:17.788728Z",
+      "runs": [
+        {
+          "date": "2026-11-22T06:54:17.788728Z",
+          "nodes": 2908,
+          "working": 2690
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy/main/combine/clash.config.template.yaml": {
+      "repo": "VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy",
+      "firstSeen": "2026-11-22T06:54:17.788728Z",
+      "runs": [
+        {
+          "date": "2026-11-22T06:54:17.788728Z",
+          "nodes": 0,
+          "working": 0,
+          "error": "no nodes"
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/Barabama/FreeNodes/main/config.yaml": {
+      "repo": "Barabama/FreeNodes",
+      "firstSeen": "2026-11-22T06:54:17.788728Z",
+      "runs": [
+        {
+          "date": "2026-11-22T06:54:17.788728Z",
+          "nodes": 0,
+          "working": 0,
+          "error": "no nodes"
+        }
+      ],
+      "failStreak": 1
+    },
+    "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/oneclash.txt": {
+      "repo": "Barabama/FreeNodes",
+      "firstSeen": "2026-11-22T06:54:17.788728Z",
+      "runs": [
+        {
+          "date": "2026-11-22T06:54:17.788728Z",
+          "nodes": 77,
+          "working": 77
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/clashmeta.txt": {
+      "repo": "Barabama/FreeNodes",
+      "firstSeen": "2026-11-22T06:54:17.788728Z",
+      "runs": [
+        {
+          "date": "2026-11-22T06:54:17.788728Z",
+          "nodes": 1398,
+          "working": 1363
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/clashnode.txt": {
+      "repo": "Barabama/FreeNodes",
+      "firstSeen": "2026-11-22T06:54:17.788728Z",
+      "runs": [
+        {
+          "date": "2026-11-22T06:54:17.788728Z",
+          "nodes": 1430,
+          "working": 1394
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodev2ray.txt": {
+      "repo": "Barabama/FreeNodes",
+      "firstSeen": "2026-11-22T06:54:17.788728Z",
+      "runs": [
+        {
+          "date": "2026-11-22T06:54:17.788728Z",
+          "nodes": 1512,
+          "working": 1512
+        }
+      ],
+      "failStreak": 0
+    },
+    "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/oneclash.yaml": {
+      "repo": "Barabama/FreeNodes",
+      "firstSeen": "2026-11-22T06:54:17.788728Z",
+      "runs": [
+        {
+          "date": "2026-11-22T06:54:17.788728Z",
+          "nodes": 47,
+          "working": 42
+        }
+      ],
+      "failStreak": 0
+    }
+  }
+}

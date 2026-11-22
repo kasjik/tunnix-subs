@@ -1,0 +1,9 @@
+name: tunnix_subs
+description: Finds and scores free proxy subscription links for the Tunnix app.
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  yaml: ^3.1.2

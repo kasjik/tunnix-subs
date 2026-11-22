@@ -1,0 +1,39 @@
+name: Update subscriptions
+
+on:
+  schedule:
+    - cron: '17 3 * * 1' # every Monday 03:17 UTC
+  workflow_dispatch: {} # "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-subscriptions
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: dart-lang/setup-dart@v1
+
+      - run: dart pub get
+
+      - name: Find, test and score subscription links
+        run: dart run bin/find_subs.dart
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Always commits (state.json records each run), which also stops
+      # GitHub from disabling this schedule after 60 days of no activity.
+      - name: Commit results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add subscriptions.json state.json
+          git commit -m "Weekly subscription update" || echo "Nothing to commit"
+          git push
