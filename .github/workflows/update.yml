@@ -15,13 +15,20 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
 
       - uses: dart-lang/setup-dart@v1
 
       - run: dart pub get
+
+      # Real proxy tests run through sing-box (same version tested locally).
+      - name: Install sing-box
+        run: |
+          v=1.12.4
+          curl -fsSL "https://github.com/SagerNet/sing-box/releases/download/v$v/sing-box-$v-linux-amd64.tar.gz" | tar xz
+          echo "SINGBOX=$PWD/sing-box-$v-linux-amd64/sing-box" >> "$GITHUB_ENV"
 
       - name: Find, test and score subscription links
         run: dart run bin/find_subs.dart

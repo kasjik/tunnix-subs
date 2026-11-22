@@ -28,11 +28,33 @@ class ProxyNode {
   static ServerLocation? Function(ProxyNode node) locationOf = _noLocation;
   static ServerLocation? _noLocation(ProxyNode _) => null;
 
-  /// The subscription's [name] is never shown: free lists label servers
-  /// wrongly ("US_34" in Osaka) or with long junk text. Location only.
+  /// The subscription's [name] text is never shown: free lists label
+  /// servers wrongly ("US_34" in Osaka) or with long junk text. Until the
+  /// geo test lands, only the country the name claims is used; after it,
+  /// the real country and city.
   ServerLocation? get location => locationOf(this);
 
-  String? get countryCode => location?.countryCode;
+  /// True once the server has been geo-tested.
+  bool get isLocated => location != null;
+
+  String? get countryCode => location?.countryCode ?? claimedCountryCode;
+
+  /// Country the subscription claims (flag emoji or "US_"-style prefix).
+  /// Shown only until the geo test replaces it.
+  String? get claimedCountryCode {
+    final m = _flagRe.firstMatch(name);
+    if (m != null) {
+      return m[0]!.runes
+          .map((r) => String.fromCharCode(r - 0x1F1E6 + 0x41))
+          .join();
+    }
+    final c = _codeRe.firstMatch(name)?.group(1);
+    if (c == 'UK') return 'GB';
+    return c != null && countryNames.containsKey(c) ? c : null;
+  }
+
+  static final _flagRe = RegExp(r'[\u{1F1E6}-\u{1F1FF}]{2}', unicode: true);
+  static final _codeRe = RegExp(r'^\s*([A-Z]{2})(?=[\s_\-|·.]|\d|$)');
 
   String? get flag {
     final c = countryCode;
@@ -42,14 +64,17 @@ class ProxyNode {
         .join();
   }
 
-  /// Country name, e.g. "Japan".
+  /// Country name: real once located, else the claimed one.
   String get title {
     final l = location;
-    if (l == null) return 'Locating…';
-    return countryNames[l.countryCode] ?? l.country ?? l.countryCode;
+    if (l != null) {
+      return countryNames[l.countryCode] ?? l.country ?? l.countryCode;
+    }
+    final c = claimedCountryCode;
+    return c == null ? 'Unknown country' : (countryNames[c] ?? c);
   }
 
-  /// City, e.g. "Osaka"; empty if unknown.
+  /// City, e.g. "Osaka"; empty until located or if unknown.
   String get place => location?.city ?? '';
 
   String get protocolLabel => switch (protocol) {

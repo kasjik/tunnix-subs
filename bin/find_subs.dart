@@ -11,8 +11,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
 
-import 'package:tunnix_subs/parsers.dart';
-import 'package:tunnix_subs/proxy_node.dart';
+import 'package:tunnix_subs/evaluate.dart';
 
 /// How many links to publish, and at most how many from one repository.
 const publishCount = 8;
@@ -35,6 +34,13 @@ const searchQueries = [
   'free vmess vless trojan',
   'v2rayN subscription',
   'free proxy subscription shadowsocks',
+  'v2ray config collector',
+  'proxy aggregator subscription',
+  'free nodes daily update',
+  'topic:v2ray-config',
+  'topic:free-v2ray',
+  'topic:v2ray-subscription',
+  'topic:proxy-list clash',
 ];
 
 /// File paths that usually hold a subscription.
@@ -88,12 +94,18 @@ Future<void> main() async {
     '(${seeds.length} seeds, ${links.length} tracked, ${found.length} found)',
   );
 
-  // 2. Test every candidate.
-  final results = await _pool(
-    candidates.keys.toList(),
-    6,
-    (url) async => MapEntry(url, await _evaluate(url)),
+  // 2. Test every candidate like the app would: distinct IPs, no CDN
+  //    servers, and real traffic through a sample (sing-box).
+  final cdn = await CdnRanges.load(_http);
+  final tester = ProxyTester(
+    binary: Platform.environment['SINGBOX'] ?? 'sing-box',
   );
+  final results = await mapPool(
+    candidates.keys.toList(),
+    3,
+    (url) async => MapEntry(url, await evaluate(url, _http, cdn, tester)),
+  );
+  final usableIps = {for (final r in results) r.key: r.value.usableIps};
 
   // 3. Record history.
   for (final r in results) {
@@ -126,7 +138,7 @@ Future<void> main() async {
 
   // 4. Score and pick.
   final scored =
-      [
+      <({String url, String repo, double score})>[
           for (final e in links.entries)
             if (((e.value['failStreak'] as int?) ?? 0) == 0)
               (
@@ -139,18 +151,37 @@ Future<void> main() async {
         ..sort((a, b) => b.score.compareTo(a.score));
   final picked = <({String url, String repo, double score})>[];
   final perRepo = <String, int>{};
+  final covered = <String>{};
+  void take(({String url, String repo, double score}) s) {
+    picked.add(s);
+    scored.remove(s);
+    covered.addAll(usableIps[s.url] ?? const {});
+    final key = s.repo.isEmpty ? s.url : s.repo;
+    perRepo[key] = (perRepo[key] ?? 0) + 1;
+  }
+
   // Seeds that work this run always go first: a known safety net even if
   // GitHub search turns up nothing good.
   for (final s in scored.where((s) => seeds.contains(s.url)).toList()) {
-    picked.add(s);
-    scored.remove(s);
+    take(s);
   }
-  for (final s in scored) {
-    if (picked.length >= publishCount) break;
-    final key = s.repo.isEmpty ? s.url : s.repo;
-    if ((perRepo[key] ?? 0) >= perRepoLimit) continue;
-    perRepo[key] = (perRepo[key] ?? 0) + 1;
-    picked.add(s);
+  // Then greedily: the link adding the most servers not already covered by
+  // the picks so far (many lists copy each other).
+  double gain(({String url, String repo, double score}) s) {
+    final ips = usableIps[s.url] ?? const <String>{};
+    if (ips.isEmpty) return 0;
+    final fresh = ips.where((ip) => !covered.contains(ip)).length;
+    return s.score * fresh / ips.length;
+  }
+
+  while (picked.length < publishCount) {
+    final options = scored.where((s) {
+      final key = s.repo.isEmpty ? s.url : s.repo;
+      return (perRepo[key] ?? 0) < perRepoLimit && gain(s) > 0;
+    }).toList();
+    if (options.isEmpty) break;
+    options.sort((a, b) => gain(b).compareTo(gain(a)));
+    take(options.first);
   }
 
   // 5. Publish — but never replace a working list with an empty one
@@ -250,103 +281,24 @@ Future<Map<String, dynamic>?> _api(String path, Map<String, String> q) async {
   }
 }
 
-// ----------------------------------------------------------------- evaluation
-
-class _Run {
-  _Run(this.nodes, this.working, [this.error]);
-  final int nodes;
-  final int working;
-  final String? error;
-
-  /// Enough live servers to be worth publishing.
-  bool get ok => working >= 3;
-
-  Map<String, Object?> toJson() => {
-    'nodes': nodes,
-    'working': working,
-    'error': ?error,
-  };
-}
-
-Future<_Run> _evaluate(String url) async {
-  String body;
-  try {
-    final req = await _http.getUrl(Uri.parse(url));
-    final res = await req.close().timeout(const Duration(seconds: 25));
-    if (res.statusCode != 200) return _Run(0, 0, 'HTTP ${res.statusCode}');
-    final bytes = <int>[];
-    await for (final chunk in res.timeout(const Duration(seconds: 25))) {
-      bytes.addAll(chunk);
-      if (bytes.length > 5e6) return _Run(0, 0, 'too large');
-    }
-    body = utf8.decode(bytes, allowMalformed: true);
-  } catch (e) {
-    return _Run(0, 0, 'fetch failed');
-  }
-  List<ProxyNode> nodes;
-  try {
-    nodes = parseSubscription(body, 'x');
-  } catch (_) {
-    return _Run(0, 0, 'unparseable');
-  }
-  if (nodes.isEmpty) return _Run(0, 0, 'no nodes');
-
-  // Test a random sample: TCP connect proves the server is up.
-  final sample = (List.of(nodes)..shuffle(Random(url.hashCode))).take(40);
-  final up = await _pool(sample.toList(), 20, _tcpOk);
-  final ratio = up.where((x) => x).length / up.length;
-  return _Run(nodes.length, (ratio * nodes.length).round());
-}
-
-Future<bool> _tcpOk(ProxyNode n) async {
-  try {
-    final s = await Socket.connect(
-      n.server,
-      n.port,
-      timeout: const Duration(seconds: 4),
-    );
-    s.destroy();
-    return true;
-  } catch (_) {
-    return false;
-  }
-}
-
-/// Average working servers (capped, so one huge dump doesn't dominate),
-/// weighted by how reliably the link worked across its recent runs.
-/// Links seen only once score lower than proven ones.
+/// Average servers the app could use (capped, so one huge dump doesn't
+/// dominate), weighted by how reliably the link delivered across its recent
+/// runs. Links seen only once score lower than proven ones.
 double _score(Map<String, dynamic> e) {
   final runs = [
-    for (final r in (e['runs'] as List)) Map<String, dynamic>.from(r as Map),
+    for (final r in (e['runs'] as List))
+      if (r is Map && r.containsKey('usable')) Map<String, dynamic>.from(r),
   ];
   if (runs.isEmpty) return 0;
-  final working = [for (final r in runs) min((r['working'] as int?) ?? 0, 150)];
-  final okRuns = working.where((w) => w >= 3).length;
-  final avg = working.reduce((a, b) => a + b) / working.length;
+  final usable = [for (final r in runs) min((r['usable'] as int?) ?? 0, 150)];
+  final okRuns = usable.where((u) => u >= 3).length;
+  final avg = usable.reduce((a, b) => a + b) / usable.length;
   final reliability = okRuns / runs.length;
   final maturity = 0.6 + 0.4 * min(runs.length, 4) / 4;
   return avg * reliability * maturity;
 }
 
 // ---------------------------------------------------------------------- utils
-
-Future<List<R>> _pool<T, R>(
-  List<T> items,
-  int concurrency,
-  Future<R> Function(T) f,
-) async {
-  final out = List<R?>.filled(items.length, null);
-  var i = 0;
-  Future<void> worker() async {
-    while (i < items.length) {
-      final k = i++;
-      out[k] = await f(items[k]);
-    }
-  }
-
-  await Future.wait(List.generate(concurrency, (_) => worker()));
-  return out.cast<R>();
-}
 
 String? _repoOf(String url) {
   final u = Uri.tryParse(url);
